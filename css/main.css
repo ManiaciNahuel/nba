@@ -1,23 +1,37 @@
+/* Para todo */
+a {
+  text-decoration: none; }
+
+body {
+  margin: 0px; }
+
+/* Header estilos */
 header {
   top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f0f0f0; }
-  header h1 {
-    margin: 0px;
-    text-align: center; }
+  background-color: #f0f0f0;
+  position: sticky; }
+  header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    header div #nbaLogo {
+      height: 70px; }
+    header div h1 {
+      margin: 0px;
+      text-align: center;
+      color: black; }
   header .redesHeader {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     margin: 0;
-    padding: 0; }
+    padding: 10px; }
     header .redesHeader img {
       width: 40px;
       height: 40px; }
     header .redesHeader li {
       display: inline-block; }
-    header .redesHeader a {
-      text-decoration: none; }
