@@ -6,7 +6,6 @@ var i;
 
 for (i = 0; i < accdr.length; i++) {
   /* Accionar boton abrir - escudos */
-
   accdr[i].addEventListener("click", function () {
     
     this.classList.toggle("active");
@@ -15,6 +14,7 @@ for (i = 0; i < accdr.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = 75 + "vh";
+      console.log(content.style.CSSStyleDeclaration.length)
     } 
   });
 
