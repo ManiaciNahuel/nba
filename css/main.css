@@ -36,6 +36,7 @@ header {
     header .redes_header li {
       display: inline-block; }
 
+/* Main */
 .team_logos {
   position: relative;
   display: flex;
@@ -110,3 +111,18 @@ header {
     border: 2px solid #ff1b1b73;
     background-color: #ff5b5be3;
     box-shadow: 7px 6px 21px 2px rgba(0, 0, 0, 0.47); }
+
+/* Media querys */
+@media (max-width: 1045px) and (min-width: 550px) {
+  .team_logos {
+    height: 90vh;
+    width: 80%;
+    margin: auto; } }
+
+@media (max-width: 550px) {
+  .team_logos #grupo {
+    display: grid;
+    position: relative;
+    top: 175px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px; } }
