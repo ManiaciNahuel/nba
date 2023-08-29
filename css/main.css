@@ -7,6 +7,7 @@ body {
 
 /* Header estilos */
 header {
+  height: 75px;
   top: 0;
   width: 100%;
   display: flex;
@@ -121,8 +122,8 @@ header {
 
 @media (max-width: 550px) {
   header {
-    height: 75px;
-    margin-bottom: 275px; }
+    margin-bottom: 275px;
+    height: 75px; }
   .team_logos #grupo {
     display: grid;
     position: relative;
