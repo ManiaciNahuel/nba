@@ -11,7 +11,7 @@ body {
 /* Header estilos */
 
 header {
-    height: 20vh;
+    height: 10vh;
     top: 0;
     width: 100%;
     display: flex;
@@ -57,7 +57,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     #grupo {
         max-width: 1080px;
         display: flex;
@@ -142,12 +142,8 @@ header {
 /* Media querys */
 
 @media (max-width: 1045px) and (min-width: 550px) {
-   header {
-        height: 10vh;
-
-    }
+   
     .team_logos {
-        height: 90vh;
         width: 80%;
         margin: auto;
     }
@@ -157,11 +153,9 @@ header {
     header {
         margin-bottom: 250px;
         display: inline-flex;
-        height: 10vh;
 
     }
     .team_logos {
-        height: 90vh;
         #grupo { 
             display: grid;
             position: relative;

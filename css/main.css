@@ -7,7 +7,7 @@ body {
 
 /* Header estilos */
 header {
-  height: 20vh;
+  height: 10vh;
   top: 0;
   width: 100%;
   display: flex;
@@ -44,7 +44,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh; }
+  height: 90vh; }
   .team_logos #grupo {
     max-width: 1080px;
     display: flex;
@@ -115,22 +115,16 @@ header {
 
 /* Media querys */
 @media (max-width: 1045px) and (min-width: 550px) {
-  header {
-    height: 10vh; }
   .team_logos {
-    height: 90vh;
     width: 80%;
     margin: auto; } }
 
 @media (max-width: 550px) {
   header {
     margin-bottom: 250px;
-    display: inline-flex;
-    height: 10vh; }
-  .team_logos {
-    height: 90vh; }
-    .team_logos #grupo {
-      display: grid;
-      position: relative;
-      grid-template-columns: 33% 33% 33%;
-      grid-gap: 5px; } }
+    display: inline-flex; }
+  .team_logos #grupo {
+    display: grid;
+    position: relative;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px; } }
