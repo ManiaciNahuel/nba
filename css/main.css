@@ -121,7 +121,7 @@ header {
 
 @media (max-width: 550px) {
   header {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     display: inline-flex; }
   .team_logos #grupo {
     display: grid;
