@@ -11,7 +11,7 @@ body {
 /* Header estilos */
 
 header {
-    height: 75px;
+    height: 20vh;
     top: 0;
     width: 100%;
     display: flex;
@@ -142,7 +142,10 @@ header {
 /* Media querys */
 
 @media (max-width: 1045px) and (min-width: 550px) {
-   
+   header {
+        height: 10vh;
+
+    }
     .team_logos {
         height: 90vh;
         width: 80%;
@@ -152,12 +155,13 @@ header {
 
 @media (max-width: 550px) {
     header {
-        margin-bottom: 220px;
-        
-        height: 75px;
+        margin-bottom: 250px;
+        display: inline-flex;
+        height: 10vh;
 
     }
     .team_logos {
+        height: 90vh;
         #grupo { 
             display: grid;
             position: relative;
