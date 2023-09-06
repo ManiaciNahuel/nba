@@ -5,9 +5,9 @@ const teams = [
     logo: "media/logos/Clevelan-Cavaliers-logo-2022-300x300.png",
     information: {
       fundation: 1999,
-      stadium: 'Crypto Arena',
+      stadium: 'Crypto',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -18,7 +18,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -29,7 +29,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -40,7 +40,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -51,7 +51,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -62,7 +62,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -73,7 +73,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -84,7 +84,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -95,7 +95,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -106,7 +106,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -117,7 +117,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -128,7 +128,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -139,7 +139,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -150,7 +150,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -161,7 +161,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -172,7 +172,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -183,7 +183,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -194,7 +194,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -205,7 +205,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -216,7 +216,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -227,7 +227,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -238,7 +238,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -249,7 +249,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -260,7 +260,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -271,7 +271,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -282,7 +282,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -293,7 +293,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -304,7 +304,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -315,7 +315,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   },
   {
@@ -326,7 +326,7 @@ const teams = [
       fundation: 1999,
       stadium: 'Crypto Arena',
       championships: 19,
-      info: "Lorem"
+      info: "HISTORY: "
     }
   }
 ]

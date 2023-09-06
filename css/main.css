@@ -49,7 +49,6 @@ header {
     max-width: 1080px;
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
     flex-wrap: wrap; }
   .team_logos img {
@@ -74,32 +73,64 @@ header {
 
 /* Info oculta  */
 .accordion-content {
-  display: grid;
-  grid-template-columns: 11.6% 88.4%;
-  grid-template-rows: 17.3% 82.7%;
-  gap: 0px 14px;
-  grid-auto-flow: row;
-  grid-template-areas: ". ." ". .";
-  margin: 0;
+  background-color: #4477f9;
+  border-radius: 25px;
+  width: 95%;
+  height: 80vh;
+  max-height: 0;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  align-items: center;
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
   top: 10%;
-  justify-content: center;
-  margin: 10px;
-  background-color: #FCF48D;
-  width: 90%;
-  height: 80vh;
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
+  overflow: auto;
   -webkit-transition: max-height 0.6s ease-in-out;
   transition: max-height 0.6s ease-in-out;
   font-size: 1rem;
-  line-height: 1.7; }
+  line-height: 1.2; }
+  .accordion-content .accordion-header, .accordion-content .accordion-body {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    height: 100px; }
+    .accordion-content .accordion-header img, .accordion-content .accordion-body img {
+      padding-left: 17px;
+      filter: drop-shadow(10px 10px 4px #242424); }
+    .accordion-content .accordion-header h2, .accordion-content .accordion-body h2 {
+      align-self: center;
+      font-size: 30px;
+      display: flex;
+      width: 100%;
+      justify-content: center; }
+  .accordion-content .accordion-body {
+    overflow: auto;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    width: 98%;
+    gap: 20px;
+    font-size: 20px;
+    padding: 5px; }
+    .accordion-content .accordion-body::-webkit-scrollbar {
+      width: 0.2em; }
+    .accordion-content .accordion-body::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 26px rgba(51, 41, 243, 0.594); }
+    .accordion-content .accordion-body::-webkit-scrollbar-thumb {
+      background-color: rgba(222, 64, 64, 0.739); }
+    .accordion-content .accordion-body ul {
+      margin-block-start: 9px;
+      padding-inline-start: 10px;
+      font-style: oblique;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .accordion-content .accordion-body p {
+      margin: 10px; }
   .accordion-content .close_btn {
+    z-index: 10;
     font-size: 30px;
     color: #545151;
     width: 40px;
@@ -112,11 +143,13 @@ header {
     border: 2px solid #ff1b1b73;
     background-color: #ff5b5be3;
     box-shadow: 7px 6px 21px 2px rgba(0, 0, 0, 0.47); }
+  .accordion-content div li {
+    list-style-type: none; }
 
 /* Media querys */
 @media (max-width: 1045px) and (min-width: 550px) {
   .team_logos {
-    width: 80%;
+    width: 95%;
     margin: auto; } }
 
 @media (max-width: 550px) {
@@ -127,4 +160,18 @@ header {
     display: grid;
     position: relative;
     grid-template-columns: 33% 33% 33%;
-    grid-gap: 5px; } }
+    grid-gap: 5px; }
+  .accordion-content {
+    display: flex;
+    flex-direction: column; }
+    .accordion-content .accordion-header, .accordion-content .accordion-body, .accordion-content .accordion-body {
+      height: auto;
+      width: 95%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: center;
+      justify-content: center; }
+      .accordion-content .accordion-header img, .accordion-content .accordion-body img, .accordion-content .accordion-body img {
+        padding-left: 0px; } }
